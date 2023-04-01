@@ -1,0 +1,57 @@
+.aboutpage-certificate-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 50px 0 50px;
+}
+.certificate-1st-p{
+  color:rgba(58, 58, 58, 1);
+  font-size: 25px;
+  font-weight: 700;
+  margin: 10px 0 0 0;
+}
+
+
+.certificate-2nd-p{
+  color: rgba(90, 90, 90, 1);
+  margin: 10px 0 0 0;
+  width: 40%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.certificate-img-div{
+  margin: 30px 50px 0 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 49%);
+  grid-gap: 4%;
+}
+
+.ceritificate-img{
+  border-radius: 10px;
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 428px) {
+  /* styles for iPhone 13 Pro Max */
+  .aboutpage-certificate-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0 0 0;
+    width: 100%;
+  }
+
+ .certificate-2nd-p{
+    width: 80%;
+    font-size: 18px;
+  }
+  .certificate-img-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 0 10px;
+    gap: 20px;
+  }
+}

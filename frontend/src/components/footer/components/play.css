@@ -1,0 +1,120 @@
+.play-main-div{
+  margin-top: 60px;
+  border-radius: 4px;
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  background-color: black;
+}
+
+.play-left-div{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 100px;
+}
+
+button{
+  cursor:pointer;
+}
+
+@media only screen and (max-width: 428px) {
+  /* styles for iPhone 13 Pro Max */
+  .play-main-div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 20px;
+    gap: 100px;
+    align-items: center;
+  }
+
+  .play-left-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 0 0;
+  }
+}
+
+
+
+.play-div{
+  background-color: rgba(26, 104, 146, 1);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  border: 1px solid Gray ;
+  margin-top: 20px;
+  align-items: center;
+  padding: 6px 10px;
+  width: 50%;
+}
+
+.play-icon{
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+}
+
+.play-downlaod{
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 0 0 0;
+  color: white;
+  padding: 0;
+}
+
+
+
+.play-geton{
+  color: rgba(255, 255, 255, 1);
+  font-size: 8px;
+  margin: 0 0 5px 0;
+}
+
+.google-play{
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  margin: 0;
+}
+
+
+.play-desc{
+  color: rgba(255, 255, 255, 1);
+  font-size: 12px;
+  font-weight: 600;
+  margin: 20px 0 0 0;
+}
+
+.play-main-right{
+  padding: 20px 0;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.empty-play{
+  background: linear-gradient(90deg, #44A4BE 0%, #D6F1FF 100%);
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+
+}
+
+.phone-img{
+  height: 100%;
+  width: 60%;
+  position: relative;
+  bottom: 40px;
+  left: 50px;
+}
+
+

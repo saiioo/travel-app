@@ -1,0 +1,123 @@
+.home-iland-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-iland-top{
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-iland-heaing{
+  margin: 0;
+  color: rgba(58, 58, 58, 1);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.home-iland-desc{
+  color: rgba(58, 58, 58, 1);
+  width: 80%;
+  font-weight: 14px;
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+.iland-slot-box{
+  width: calc(100% - 100px);
+  margin-left: 75px;
+  margin-right: 50px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* border: 1px solid green; */
+  flex-wrap: wrap;
+}
+
+.iland-single-slot{
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+
+.iland-slot-img{
+  width: 90%;
+}
+
+.home-iland-slot-box-heading{
+  margin: 10px 0 0 0;
+  color: rgba(58, 58, 58, 1);
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.home-island-slot-box-desc{
+  margin: 10px 0 0 0;
+  width: 80%;
+  font-size: 14px;
+  color: rgba(90, 90, 90, 1);
+}
+
+.iland-slot-rating{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:85%;
+}
+
+.iland-rating{
+  font-size: 14px;
+  color: rgba(90, 90, 90, 1);
+}
+
+.iland-slot0btn{
+  background-color: rgba(50, 130, 173, 1);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 4px 8px;
+  font-size: 14px;
+}
+
+
+@media only screen and (max-width: 428px) {
+  /* styles for iPhone 13 Pro Max */
+  .home-iland-main{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+  }
+
+  .home-iland-top{
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .iland-slot-box{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .iland-single-slot{
+    margin: 30px 0 0 30px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}

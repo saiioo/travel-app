@@ -1,0 +1,92 @@
+.home-body-feedback-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback-heading{
+  margin: 30px 0 0 0;
+  width: 30%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.home-body-rating-container{
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: space-evenly;
+}
+
+
+.home-body-rate-pro{
+  margin-top: 20px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px 0;
+}
+
+
+.home-body-rating-name{
+  margin: 20px 0 0 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(34, 34, 34, 1);
+}
+
+.home-body-rating-work{
+  color: rgba(85, 85, 85, 1);
+  font-size: 16px;
+  font-weight: 500;
+  margin: 20px 0 0 0;
+}
+
+.home-body-rating-desc{
+  width: 70%;
+  margin: 45px 0 0 0;
+  text-align: center;
+  font-size: 14px;
+}
+.home-body-rating-5star{
+  margin: 20px 0 0 0;
+}
+.icon-5{
+  width: 25px;
+  height: 25px;
+}
+
+@media only screen and (max-width: 428px) {
+ 
+  /* styles for iPhone 13 Pro Max */
+  .home-body-feedback-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    /* width: 100vw; */
+  }
+  .feedback-heading{
+    width: 90%;
+    margin-top: 50px;
+  }
+  .home-body-rating-container{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+  .home-body-rate-pro{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    gap: 20px;
+  }
+}

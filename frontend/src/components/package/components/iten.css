@@ -1,0 +1,191 @@
+.item-main-div{
+  margin: 100px 50px 0 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wnd-item{
+  display: flex;
+  flex-direction: row;
+}
+
+.day-itens{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.day-p2{
+  width: 60%;
+  margin-left: 100px;
+  font-size: 14px;
+  color: gray;
+}
+
+.day-btn{
+  width: 200px;
+  border: none;
+  color: white;
+  background-color: rgba(50, 130, 173, 1);
+  padding: 6px 16px;
+}
+
+.day-p1{
+  margin-bottom: 20px;
+  color: rgba(50, 130, 173, 1);
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 100px;
+
+
+}
+
+.day-wise{
+  color: rgba(50, 130, 173, 1);
+  font-weight: 700;
+  font-size: 24px;
+}
+
+
+.querey{
+  width: 40%;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.need-help{
+  color: rgba(58, 58, 58, 1);
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+
+.help-phone{
+  color: rgba(58, 58, 58, 1);
+  font-size: 14px;
+  text-align: center;
+}
+
+.help-email{
+  color: rgba(58, 58, 58, 1);
+  font-size: 14px;
+  text-align: center;
+}
+
+.faq{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.only-input{
+  border: 1px solid gray;
+  padding: 8px 28px;
+  margin-bottom: 40px;
+
+}
+
+.templates{
+  border: 1px solid gray;
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+
+.inclusion{
+  font-size: 20px;
+  color: gray;
+}
+
+li{
+  color: gray;
+}
+
+.addition-information{
+  margin-top: 100px;
+font-size: 25px;
+font-weight: 600;
+color: rgba(50, 130, 173, 1);
+}
+
+@media only screen and (max-width: 428px) {
+  /* styles for iPhone 13 Pro Max */
+  .item-main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .wnd-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+    text-align: center;
+  }
+  .days{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .day-itens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .day-para-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    justify-content: center;
+    width: 100%;
+  }
+  .day-p1{
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+    font-size: 20px;
+
+  }
+  .day-p2{
+    text-align: center;
+    margin: 0px;
+    width: 90%;
+    font-size: 16px;
+  }
+  .querey{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    justify-content: center;
+    width: 100%;
+  }
+}

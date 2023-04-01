@@ -1,0 +1,52 @@
+.loginformpage-main-container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.login-form{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 70px 200px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.loginpage-labels{
+  display: inline-block;
+}
+
+.loginpage-form-fields{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.loginpage-form-fields input{
+  outline: none;
+  padding: 3px 10px;
+}
+
+
+.button-86{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: rgba(65, 165, 193, 1);
+  border: none;
+  padding: 8px 40px;
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+}
+
+
+
+.loginpagespan{
+  font-size: 14px;
+}
+

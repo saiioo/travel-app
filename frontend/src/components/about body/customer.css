@@ -1,0 +1,95 @@
+.aboutpage-customer-div{
+  display: flex;
+  flex-direction: column;
+  margin: 100px 50px 0 50px;
+}
+
+.customer-message{
+  color: rgba(58, 58, 58, 1);
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.customer-desc{
+  color:rgba(90, 90, 90, 1);
+  width: 30%;
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+.customer-nature-img{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.cutomser-nature{
+  width: 24%;
+  border-radius: 10px;
+}
+
+.customer-det{
+  margin-left: auto;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 10px;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+  align-items: center;
+  background-color: white;
+  border-bottom: 10px solid rgba(50, 130, 173, 1);
+}
+
+.customer-feedback-round-img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.customer-praise{
+  /* width: 30%; */
+  font-size: 14px;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 428px) {
+  /* styles for iPhone 13 Pro Max */
+  .aboutpage-customer-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .customer-message{
+    font-size: 20px;
+  }
+  .customer-desc{
+    width: 90%;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .customer-nature-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0 0 0;
+    gap: 10px;
+
+  }
+
+  .cutomser-nature{
+    width: 90%;
+  }
+
+  .customer-det {
+    margin: 30px 0 0 0;
+    width: 80%;
+  }
+}

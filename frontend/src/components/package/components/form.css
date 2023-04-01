@@ -1,0 +1,179 @@
+.package-form-main{
+  display: flex;
+  flex-direction: column;
+  margin: 100px 50px 0 50px;
+}
+
+
+.formpage-overview-div{
+  display: flex;
+  justify-content: space-around;
+}
+
+.maldives-beach{
+  width: 80%;
+  height: 400px;
+}
+
+.maldives-overview-info{
+  width: 80%;
+}
+
+
+.formpage-form-div{
+  flex-direction: column;
+  align-items: center;
+  padding: 0 100px 0 100px;
+}
+.form-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.form-overview{
+  font-weight: 700;
+  font-size: 20px;
+  color: rgba(58, 58, 58, 1);
+}
+
+.amount-p{
+  font-size: 14px;
+}
+
+.amount{
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(50, 130, 173, 1);
+  margin-left: 10px;
+}
+
+.package-overview{
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(50, 130, 173, 1);
+
+}
+.package-desc{
+  color:rgba(90, 90, 90, 1);
+  font-weight: 14px;
+}
+
+.holiday-p{
+  color: rgba(58, 58, 58, 1);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.formpage-2nd-p{
+  font-size: 14px;
+  color: rgba(58, 58, 58, 1);
+
+}
+
+
+.ipt-label{
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.formpage-form input{
+  outline: none;
+  color: gray;
+  font-size: 14px;
+  padding: 6px 5px;
+  margin-bottom: 30px;
+}
+
+
+.formpage-sendquery{
+  padding: 5px 16px;
+  margin-top: 20px;
+  background-color: white;
+  color: rgba(50, 130, 173, 1);
+  border: 1px solid rgba(50, 130, 173, 1);
+  border-radius: 3px;
+}
+
+.formpage-booknow{
+  background-color: rgba(50, 130, 173, 1);
+  color: white;
+  border: none;
+  padding: 5px 16px;
+  border-radius: 3px;
+}
+
+.formpage-depat{
+  width: 200px;
+  padding: 10px 20px;
+}
+
+
+@media only screen and (max-width: 428px) {
+  /* styles for iPhone 13 Pro Max */
+  .package-form-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 0 0;
+  }
+
+  .form-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 0 0;
+  }
+  .formpage-overview-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 0 10px;
+    width: 100%;
+
+  }
+  .maldives-beach{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 0 0px;
+    width: 95%;
+
+  }
+  .maldives-overview-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 0 10px;
+    width: 90%;
+    text-align: center;
+    font-size: 16px;
+  }
+  .formpage-form-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 0 10px;
+    width: 90%;
+    text-align: center;
+  }
+  .holiday-p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 0 10px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .form-page-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 0 10px;
+    width: 90%;
+    text-align: center;
+    gap: 10px;
+  }
+  
+}
